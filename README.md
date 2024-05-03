@@ -1,4 +1,6 @@
 # Collaborators 
 
 ## 1.Aries Dimas Yudhistira
-## 2.Indriyanus
+## 2.Aulia Permana
+## 3.Johann krusa
+## 4.Indriyanus
