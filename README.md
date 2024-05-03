@@ -1,5 +1,5 @@
 # Collaborators 
 
 ## 1.Aries Dimas Yudhistira
-
-## 2.Johannes Bintang
+## 2.Aulia Permana
+## 3.Johann krusa
