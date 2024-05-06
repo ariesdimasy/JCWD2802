@@ -1,5 +1,15 @@
-let alpha = "a"
+// console.log("*****")
+// console.log("**********")
 
-alpha += "b"
+let stars = ""
+// stars += "*"
+// stars += "*"
+// stars += "*"
 
-console.log(alpha)
+for(let i = 0; i < 5; i++){
+    console.log(i)
+    stars += "*"
+}
+console.log(stars)
+
+// 1 * 2 * 3 * 4 * 5 = 5!
