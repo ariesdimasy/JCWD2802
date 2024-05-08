@@ -1,15 +1,18 @@
-// console.log("*****")
-// console.log("**********")
+function test1(){
+    let counter = 0
+    // i = 10
+    for(let i = 0; i < 10; i+=2){
+        counter += 3
+        console.log(" loop ", i)
+    }
+    // console.log(i)
 
-let stars = ""
-// stars += "*"
-// stars += "*"
-// stars += "*"
-
-for(let i = 0; i < 5; i++){
-    console.log(i)
-    stars += "*"
+    return counter // 15
 }
-console.log(stars)
 
-// 1 * 2 * 3 * 4 * 5 = 5!
+console.log(test1()) // 5
+
+// <------------------ -4 -- -2 - 0 ---------10------------->
+
+
+
