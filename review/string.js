@@ -1,7 +1,7 @@
-let arr = "Lorem Ipsum"
-console.log(arr[2])
-arr[2] = "E"
-console.log(arr[2])
+let str = "Lorem Ipsum"
+console.log(str[2])
+str[2] = "E"
+console.log(str[2])
 
 let name = "dimas"
 let name2 = name
@@ -15,6 +15,7 @@ r
 e
 m
 */
+
 console.log(str[0])
 console.log(str[1])
 console.log(str[2])
@@ -62,6 +63,14 @@ for(let i = 0; i < box2; i++){
     result2 += "*"
     console.log(result2)
 }
+
+let myname = "dimas"
+
+// let statement = "hello "+myname+" welcome to new world"
+let statement = `hello ${myname} , welcome to new world.
+you can do whatever`
+
+console.log(statement)
 
 
 
