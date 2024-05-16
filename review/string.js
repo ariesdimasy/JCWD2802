@@ -72,5 +72,43 @@ you can do whatever`
 
 console.log(statement)
 
+/*
+n = 5
+    *        5 
+   ***      456
+  *****    34567
+ *******  2345678
+*********123456789
+
+n = 6
+     *          6 
+    ***        56
+   *****      45667
+  *******    2345678
+ *********  123456789
+***********
+*/
+
+function pyramid(n){
+    for(let i = 1; i <= n; i++){
+        let str = ""
+        for(let j = 1; j <= n+i-1; j++){
+            if(j <= n - i){
+                str += " "
+            } else {
+                str += "*"
+            }
+        }
+        console.log(str)
+    }
+}
+
+pyramid(5)
+
+pyramid(7)
+
+
+
+
 
 
